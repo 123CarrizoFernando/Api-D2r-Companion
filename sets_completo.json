@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Tal Rasha's Wrappings",
+    "partial_bonuses": {"2_pieces": "Replenish Life +10", "3_pieces": "65% Better Chance of Getting Magic Items", "4_pieces": "25% Faster Hit Recovery"},
+    "full_bonuses": {"all_skills": 3, "life": 150, "all_resistances": 50, "magic_find": 65},
+    "pieces": [
+      {"name": "Tal Rasha's Adjudication", "base_type": "Amulet", "level_required": 67, "attributes": {"sorceress_skills": 2, "lightning_resist": 33, "life": 50}},
+      {"name": "Tal Rasha's Guardianship", "base_type": "Lacquered Plate", "level_required": 71, "attributes": {"cold_resist": 40, "lightning_resist": 40, "fire_resist": 40, "magic_damage_reduced": 15, "magic_find": 88}},
+      {"name": "Tal Rasha's Fine-Spun Cloth", "base_type": "Mesh Belt", "level_required": 53, "attributes": {"dexterity": 20, "mana": 30, "magic_find": 15, "damage_taken_to_mana": 37}},
+      {"name": "Tal Rasha's Lidless Eye", "base_type": "Swirling Crystal", "level_required": 65, "attributes": {"sorceress_skills": 1, "fcr": 20, "cold_mastery": 1, "lightning_mastery": 1, "fire_mastery": 1, "mana": 50}},
+      {"name": "Tal Rasha's Horadric Crest", "base_type": "Death Mask", "level_required": 66, "attributes": {"defense": 45, "life_stolen_per_hit": 10, "mana_stolen_per_hit": 10, "all_resistances": 15, "life": 30, "mana": 30}}
+    ]
+  },
+  {
+    "name": "Immortal King",
+    "partial_bonuses": {"2_pieces": "30% Better Chance of Getting Magic Items", "3_pieces": "10% Life Stolen Per Hit", "4_pieces": "20% Bonus to Attack Rating"},
+    "full_bonuses": {"all_skills": 2, "strength": 45, "dexterity": 15, "all_resistances": 50, "combat_masteries": 3},
+    "pieces": [
+      {"name": "Immortal King's Will", "base_type": "Avenger Guard", "level_required": 37, "attributes": {"barbarian_skills": 2, "attack_rating": 150, "light_radius": 2, "socket": 2}},
+      {"name": "Immortal King's Soul Cage", "base_type": "Sacred Armor", "level_required": 76, "attributes": {"defense": 400, "fire_resist": 40, "lightning_resist": 40, "cold_resist": 40, "poison_resist": 40}},
+      {"name": "Immortal King's Detail", "base_type": "War Belt", "level_required": 29, "attributes": {"strength": 25, "defense": 36, "lightning_resist": 28, "fire_resist": 28}},
+      {"name": "Immortal King's Forge", "base_type": "War Gauntlets", "level_required": 30, "attributes": {"strength": 20, "dexterity": 20, "defense": 108, "attack_rating": 50}},
+      {"name": "Immortal King's Pillar", "base_type": "War Boots", "level_required": 31, "attributes": {"frw": 40, "defense": 75, "life": 110, "stamina": 44}}
+    ]
+  },
+  {
+    "name": "Trang-Oul's Avatar",
+    "partial_bonuses": {"2_pieces": "Replenish Life +15", "3_pieces": "Cold Resist +40%", "4_pieces": "+2 to Summoning Skills"},
+    "full_bonuses": {"necromancer_skills": 3, "fcr": 30, "life": 100, "mana": 150, "all_resistances": 50},
+    "pieces": [
+      {"name": "Trang-Oul's Guise", "base_type": "Bone Mask", "level_required": 45, "attributes": {"defense": 80, "mana": 150, "replenish_life": 5, "attacker_takes_damage": 20}},
+      {"name": "Trang-Oul's Scales", "base_type": "Chaos Armor", "level_required": 49, "attributes": {"defense": 150, "strength": 15, "cold_resist": 40, "poison_resist": 40}},
+      {"name": "Trang-Oul's Wing", "base_type": "Cantor Trophy", "level_required": 54, "attributes": {"necromancer_skills": 2, "fhr": 30, "lightning_resist": 45, "fire_resist": 38}},
+      {"name": "Trang-Oul's Girth", "base_type": "Troll Belt", "level_required": 62, "attributes": {"strength": 25, "life": 66, "mana": 30}},
+      {"name": "Trang-Oul's Claws", "base_type": "Heavy Bracers", "level_required": 45, "attributes": {"fcr": 20, "cold_resist": 30, "defense": 30}}
+    ]
+  },
+  {
+    "name": "Aldur's Watchtower",
+    "partial_bonuses": {"2_pieces": "Replenish Life +15", "3_pieces": "+150 to Attack Rating", "4_pieces": "All Resistances +50"},
+    "full_bonuses": {"druid_skills": 3, "life": 150, "all_attributes": 15},
+    "pieces": [
+      {"name": "Aldur's Stony Gaze", "base_type": "Totemic Mask", "level_required": 36, "attributes": {"druid_skills": 2, "energy": 15, "replenish_life": 15, "socket": 2}},
+      {"name": "Aldur's Deception", "base_type": "Shadow Plate", "level_required": 76, "attributes": {"enhanced_defense": 150, "life": 50, "lightning_resist": 40, "socket": 3}},
+      {"name": "Aldur's Gauntlet", "base_type": "Battle Boots", "level_required": 29, "attributes": {"frw": 40, "life": 50, "maximum_stamina": 180}}
+    ]
+  },
+  {
+    "name": "Griswold's Legacy",
+    "partial_bonuses": {"2_pieces": "+10 to Strength", "3_pieces": "+20 to Energy", "4_pieces": "All Resistances +30"},
+    "full_bonuses": {"paladin_skills": 3, "attack_rating": 200, "life": 150, "all_attributes": 20},
+    "pieces": [
+      {"name": "Griswold's Valor", "base_type": "Corona", "level_required": 69, "attributes": {"paladin_skills": 2, "defense": 100, "socket": 2}},
+      {"name": "Griswold's Heart", "base_type": "Ornate Plate", "level_required": 45, "attributes": {"enhanced_defense": 200, "strength": 20, "socket": 3}},
+      {"name": "Griswold's Redemption", "base_type": "Caduceus", "level_required": 66, "attributes": {"paladin_skills": 3, "enhanced_damage": 240, "ias": 40, "socket": 4}},
+      {"name": "Griswold's Honor", "base_type": "Vortex Shield", "level_required": 68, "attributes": {"defense": 100, "fhr": 30, "all_resistances": 45, "socket": 3}}
+    ]
+  }
+]

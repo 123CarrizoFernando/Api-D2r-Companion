@@ -1,0 +1,22 @@
+[
+  { "name": "Tyrael's Might", "level_required": 84, "is_ethereal_possible": true, "attributes": {"all_skills": 2, "strength": 30, "all_resistances": 30, "cannot_be_frozen": 1, "damage_to_demons": 100, "slain_monsters_rest_in_peace": 1} },
+  { "name": "Templar's Might", "level_required": 82, "is_ethereal_possible": true, "attributes": {"paladin_offensive_auras": 2, "enhanced_defense": 200, "strength": 15, "maximum_stamina": 50, "fhr": 20} },
+  { "name": "Leviathan", "level_required": 65, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 200, "damage_reduced_percent": 25, "strength": 50, "defense": 150} },
+  { "name": "Steel Carapace", "level_required": 66, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 220, "fhr": 20, "cold_resist": 50, "attacker_takes_damage": 15, "replenish_life": 10} },
+  { "name": "Gladiator's Bane", "level_required": 85, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 200, "fhr": 30, "defense": 50, "cannot_be_frozen": 1, "magic_damage_reduced": 15, "damage_reduced": 20} },
+  { "name": "Toothrow", "level_required": 40, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 220, "defense": 40, "attack_rating": 40, "open_wounds": 40, "strength": 10} },
+  { "name": "Atma's Wail", "level_required": 51, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 160, "fhr": 30, "replenish_life": 10, "mana": 50, "cold_resist": 30, "fire_resist": 30} },
+  { "name": "Blackoak Shield", "level_required": 61, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 200, "dexterity_based_on_level": 0.5, "life_based_on_level": 1.25, "cold_absorb": 50, "faster_block_rate": 40} },
+  { "name": "Spike Thorn", "level_required": 70, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 150, "damage_reduced_percent": 15, "attacker_takes_damage": 60, "fhr": 20} },
+  { "name": "Medusa's Gaze", "level_required": 76, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 180, "slow_targets_by": 10, "cold_resist": 40, "life_stolen_per_hit": 9, "lower_resist_proc_chance": 10} },
+  { "name": "Head Hunter's Glory", "level_required": 75, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 350, "fhr": 20, "fire_resist": 30, "poison_resist": 30, "socket": 3} },
+  { "name": "Spirit Ward", "level_required": 68, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 180, "fhr": 30, "all_resistances": 35, "maximum_resist_cold": 7, "attacker_takes_damage": 10} },
+  { "name": "Sandstorm Trek", "level_required": 64, "is_ethereal_possible": true, "attributes": {"frw": 20, "fhr": 20, "strength": 15, "vitality": 15, "poison_resist": 70} },
+  { "name": "Marrowwalk", "level_required": 66, "is_ethereal_possible": true, "attributes": {"skeleton_mastery": 2, "strength": 20, "dexterity": 17, "regenerate_stamina": 10} },
+  { "name": "Shadow Dancer", "level_required": 71, "is_ethereal_possible": true, "attributes": {"frw": 30, "fhr": 30, "shadow_disciplines": 2, "dexterity": 25} },
+  { "name": "Gore Rider", "level_required": 47, "is_ethereal_possible": true, "attributes": {"frw": 30, "open_wounds": 10, "crushing_blow": 15, "deadly_strike": 15} },
+  { "name": "War Traveler", "level_required": 42, "is_ethereal_possible": true, "attributes": {"frw": 25, "damage_min": 15, "damage_max": 25, "vitality": 10, "strength": 10, "magic_find": 50} },
+  { "name": "Dracul's Grasp", "level_required": 76, "is_ethereal_possible": true, "attributes": {"life_tap_proc_chance": 5, "life_stolen_per_hit": 10, "open_wounds": 25, "strength": 15} },
+  { "name": "Steelrend", "level_required": 70, "is_ethereal_possible": true, "attributes": {"strength": 20, "enhanced_damage": 210, "crushing_blow": 10} },
+  { "name": "Soul Drainer", "level_required": 74, "is_ethereal_possible": true, "attributes": {"life_stolen_per_hit": 7, "mana_stolen_per_hit": 7, "lower_resist_proc_chance": 8, "defense": 120} }
+]

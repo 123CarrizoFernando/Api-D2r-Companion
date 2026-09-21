@@ -1,0 +1,22 @@
+[
+  { "name": "Suicide Branch", "level_required": 33, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "fcr": 50, "mana_based_on_level": 10, "max_life": 10, "all_resistances": 10} },
+  { "name": "Carin Shard", "level_required": 35, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 1, "fcr": 30, "mana_stolen_per_hit": 5, "replenish_life": 5, "mana": 50} },
+  { "name": "Arm of King Leoric", "level_required": 36, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 2, "raising_skeletons": 3, "skeletal_mage": 3, "fcr": 10, "all_resistances": 23, "life": 100} },
+  { "name": "Blackhand Key", "level_required": 41, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 1, "fcr": 30, "fire_resist": 37, "magic_damage_reduced": 2, "life": 50} },
+  { "name": "Darkforce Spawn", "level_required": 65, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 3, "poison_and_bone_skills": 3, "fcr": 30, "maximum_mana": 128} },
+  { "name": "Boneshade", "level_required": 79, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 2, "bone_spirit": 2, "bone_spear": 2, "fcr": 25} },
+  { "name": "The Oculus", "level_required": 42, "is_ethereal_possible": true, "attributes": {"all_skills": 3, "fcr": 30, "all_resistances": 20, "energy": 20, "vitality": 20, "magic_find": 50} },
+  { "name": "Mang Song's Lesson", "level_required": 82, "is_ethereal_possible": true, "attributes": {"all_skills": 5, "fcr": 30, "regenerate_mana": 45, "enemy_fire_resist": -15, "enemy_lightning_resist": -15, "enemy_cold_resist": -15} },
+  { "name": "Ondal's Wisdom", "level_required": 66, "is_ethereal_possible": true, "attributes": {"all_skills": 2, "fcr": 50, "defense": 500, "magic_damage_reduced": 7, "experience_gained": 5} },
+  { "name": "Eschuta's Temper", "level_required": 74, "is_ethereal_possible": true, "attributes": {"sorceress_skills": 3, "fcr": 40, "fire_skill_damage": 20, "lightning_skill_damage": 20, "energy": 30} },
+  { "name": "Death's Fathom", "level_required": 73, "is_ethereal_possible": true, "attributes": {"all_skills": 3, "fcr": 20, "cold_skill_damage": 30, "lightning_resist": 40, "fire_resist": 40} },
+  { "name": "Arioc's Needle", "level_required": 81, "is_ethereal_possible": true, "attributes": {"all_skills": 4, "enhanced_damage": 200, "ias": 30, "deadly_strike": 50} },
+  { "name": "Bonehew", "level_required": 64, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 300, "ias": 30, "mana_stolen_per_hit": 10, "prevent_monster_heal": 1, "socket": 2} },
+  { "name": "The Reaper's Toll", "level_required": 75, "is_ethereal_possible": true, "attributes": {"decrepify_proc_chance": 33, "enhanced_damage": 240, "life_stolen_per_hit": 15, "ignore_target_defense": 1} },
+  { "name": "Tomb Reaver", "level_required": 84, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 280, "all_resistances": 50, "fhr": 60, "socket": 3} },
+  { "name": "Stormspire", "level_required": 70, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "lightning_damage": 233, "lightning_absorb": 15, "strength": 10} },
+  { "name": "Kelpie Snare", "level_required": 33, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 150, "slow_targets_by": 75, "defense_based_on_level": 1.25, "life_based_on_level": 1.5} },
+  { "name": "The Impaler", "level_required": 31, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 160, "attack_rating": 150, "open_wounds": 50, "knockback": 1} },
+  { "name": "Lance of Yaggai", "level_required": 22, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 80, "lightning_damage": 30, "attacker_takes_damage": 10, "stamina": 30} },
+  { "name": "Soulfeast Tine", "level_required": 35, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 190, "life_stolen_per_hit": 7, "mana_stolen_per_hit": 7, "attack_rating": 150} }
+]

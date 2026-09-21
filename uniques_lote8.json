@@ -1,0 +1,22 @@
+[
+  { "name": "Pelta Lunata", "level_required": 2, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 40, "vitality": 10, "energy": 10, "increased_chance_of_blocking": 15, "damage_reduced": 1} },
+  { "name": "Umgerd", "level_required": 29, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 90, "magic_damage_reduced": 2, "attacker_takes_damage": 5, "increased_chance_of_blocking": 30} },
+  { "name": "Stormguild", "level_required": 37, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 70, "lightning_resist": 25, "attacker_takes_damage": 10, "increased_chance_of_blocking": 10} },
+  { "name": "Wall of the Eyeless", "level_required": 20, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 30, "fcr": 20, "mana_after_each_kill": 3, "defense": 10} },
+  { "name": "Viscerataunt", "level_required": 28, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 130, "life_stolen_per_hit": 10, "faster_block_rate": 30, "increased_chance_of_blocking": 30} },
+  { "name": "Mosers Blessed Circle", "level_required": 31, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 200, "all_resistances": 25, "faster_block_rate": 30, "increased_chance_of_blocking": 25, "socket": 2} },
+  { "name": "Stormshield", "level_required": 73, "is_ethereal_possible": true, "attributes": {"damage_reduced_percent": 35, "lightning_resist": 25, "cold_resist": 60, "strength": 30, "faster_block_rate": 25, "increased_chance_of_blocking": 27} },
+  { "name": "Buri-Do Banon", "level_required": 25, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 120, "piercing_attack": 1, "freeze_target": 3, "dexterity": 15} },
+  { "name": "Demon Machine", "level_required": 49, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 150, "explosive_arrows": 1, "fcr": 20, "mana": 75} },
+  { "name": "Gut Siphon", "level_required": 68, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "mana_stolen_per_hit": 8, "slow_targets_by": 30, "prevent_monster_heal": 1} },
+  { "name": "Hellrack", "level_required": 76, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 220, "fire_damage": 200, "lightning_damage": 200, "socket": 2} },
+  { "name": "Skystrike", "level_required": 28, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 170, "lightning_damage": 30, "charged_bolt_proc_chance": 25, "dexterity": 15} },
+  { "name": "Riphook", "level_required": 31, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "slow_targets_by": 30, "life_stolen_per_hit": 10, "ias": 30} },
+  { "name": "Kuko Shakaku", "level_required": 33, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 170, "explosive_arrows": 3, "piercing_attack": 1, "fire_damage": 40} },
+  { "name": "Endlesshail", "level_required": 36, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "cold_damage": 30, "rain_of_arrows": 3, "dexterity": 15} },
+  { "name": "Goldstrike Arch", "level_required": 46, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 250, "damage_to_demons_percent": 150, "ias": 30, "attack_rating": 150} },
+  { "name": "Eaglehorn", "level_required": 59, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "ignore_target_defense": 1, "dexterity": 25, "attack_rating": 100} },
+  { "name": "Windforce", "level_required": 73, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 250, "mana_stolen_per_hit": 8, "knockback": 1, "strength": 5, "dexterity": 5} },
+  { "name": "The Fetid Sprinkler", "level_required": 38, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 150, "paladin_skills": 1, "attack_rating": 150, "life_stolen_per_hit": 5} },
+  { "name": "Hand of Blessed Light", "level_required": 42, "is_ethereal_possible": true, "attributes": {"paladin_skills": 2, "paladin_combat_skills": 2, "enhanced_damage": 150, "fcr": 10, "life": 50} }
+]

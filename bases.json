@@ -1,18 +1,13 @@
 [
-  {
-    "name": "Monarch",
-    "category": "Shield",
-    "max_sockets": 4,
-    "strength_required": 156,
-    "dexterity_required": 0,
-    "is_elite": true
-  },
-  {
-    "name": "Phase Blade",
-    "category": "Sword",
-    "max_sockets": 6,
-    "strength_required": 25,
-    "dexterity_required": 136,
-    "is_elite": true
-  }
+  { "name": "Monarch", "category": "Shield", "max_sockets": 4, "strength_required": 156, "dexterity_required": 0, "is_elite": true },
+  { "name": "Sacred Targe", "category": "Paladin Shield", "max_sockets": 4, "strength_required": 86, "dexterity_required": 0, "is_elite": true },
+  { "name": "Phase Blade", "category": "Sword", "max_sockets": 6, "strength_required": 25, "dexterity_required": 136, "is_elite": true },
+  { "name": "Crystal Sword", "category": "Sword", "max_sockets": 6, "strength_required": 43, "dexterity_required": 0, "is_elite": false },
+  { "name": "Flail", "category": "Mace", "max_sockets": 5, "strength_required": 41, "dexterity_required": 35, "is_elite": false },
+  { "name": "Archon Plate", "category": "Armor", "max_sockets": 4, "strength_required": 103, "dexterity_required": 0, "is_elite": true },
+  { "name": "Mage Plate", "category": "Armor", "max_sockets": 3, "strength_required": 55, "dexterity_required": 0, "is_elite": false },
+  { "name": "Dusk Shroud", "category": "Armor", "max_sockets": 4, "strength_required": 77, "dexterity_required": 0, "is_elite": true },
+  { "name": "Thresher", "category": "Polearm", "max_sockets": 5, "strength_required": 152, "dexterity_required": 118, "is_elite": true },
+  { "name": "Colossus Voulge", "category": "Polearm", "max_sockets": 4, "strength_required": 210, "dexterity_required": 55, "is_elite": true },
+  { "name": "Grand Matron Bow", "category": "Amazon Bow", "max_sockets": 5, "strength_required": 108, "dexterity_required": 152, "is_elite": true }
 ]

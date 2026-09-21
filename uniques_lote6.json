@@ -1,0 +1,22 @@
+[
+  { "name": "Lidless Wall", "level_required": 41, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "fcr": 20, "mana": 10, "mana_after_each_kill": 1, "increased_chance_of_blocking": 10} },
+  { "name": "Moser's Blessed Circle", "level_required": 31, "is_ethereal_possible": true, "attributes": {"enhanced_defense": [180, 220], "all_resistances": 25, "faster_block_rate": 30, "increased_chance_of_blocking": 25, "socket": 2} },
+  { "name": "Radament's Sphere", "level_required": 50, "is_ethereal_possible": true, "attributes": {"enhanced_defense": [150, 200], "poison_resist": 75, "damage_to_undead": 50, "defiance_aura_charges": 6, "attacker_takes_damage": 14} },
+  { "name": "Tiamat's Rebuke", "level_required": 38, "is_ethereal_possible": true, "attributes": {"enhanced_defense": [140, 200], "all_resistances": [25, 35], "fire_damage": [35, 50], "lightning_damage": [1, 120], "cold_damage": [27, 53]} },
+  { "name": "Spike Thorn", "level_required": 70, "is_ethereal_possible": true, "attributes": {"enhanced_defense": [120, 150], "damage_reduced_percent": 15, "attacker_takes_damage": [20, 60], "fhr": 20, "thorn_level": 5} },
+  { "name": "Dragonscale", "level_required": 80, "is_ethereal_possible": true, "attributes": {"paladin_combat_skills": [15, 25], "enhanced_defense": [170, 200], "fire_absorb": [10, 20], "hydra_charges": 15} },
+  { "name": "Blackoak Shield", "level_required": 61, "is_ethereal_possible": true, "attributes": {"enhanced_defense": [160, 200], "dexterity_based_on_level": 0.5, "life_based_on_level": 1.25, "cold_absorb": [40, 50], "faster_block_rate": 40} },
+  { "name": "Arm of King Leoric", "level_required": 36, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 2, "necromancer_raising_skeletons": 3, "necromancer_skeletal_mage": 3, "fcr": 10, "all_resistances": 23, "life": 100, "bone_prison_charges": 10} },
+  { "name": "Boneshade", "level_required": 79, "is_ethereal_possible": true, "attributes": {"necromancer_skills": 2, "bone_spirit": [2, 3], "bone_spear": [2, 3], "bone_wall": [2, 3], "bone_armor": [2, 3], "teeth": [2, 3], "fcr": 25} },
+  { "name": "Death's Web", "level_required": 66, "is_ethereal_possible": true, "attributes": {"all_skills": 2, "poison_and_bone_skills": 1, "fcr": 20, "enemy_poison_resist": [-40, -50], "mana_after_each_kill": [7, 12]} },
+  { "name": "The Salamander", "level_required": 20, "is_ethereal_possible": true, "attributes": {"sorceress_skills": 1, "fire_skill_damage": 1, "fire_damage": [10, 30], "fire_resist": 30, "mana": 20} },
+  { "name": "The Iron Jang Bong", "level_required": 33, "is_ethereal_possible": true, "attributes": {"sorceress_skills": 1, "lightning_damage": [1, 50], "mana": 50, "attack_rating": 150} },
+  { "name": "Chromatic Ire", "level_required": 35, "is_ethereal_possible": true, "attributes": {"sorceress_skills": 2, "fcr": 30, "all_resistances": [20, 30], "mana_based_on_level": 1.0, "vision_flash": 1} },
+  { "name": "Warpspear", "level_required": 39, "is_ethereal_possible": true, "attributes": {"sorceress_skills": 3, "teleport": 3, "energy": 10, "mana": 25, "resist_lightning": 20} },
+  { "name": "Skull Collector", "level_required": 42, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "mana_based_on_level": 1.0, "magic_find_based_on_level": 1.0, "energy": 20} },
+  { "name": "Ondal's Wisdom", "level_required": 66, "is_ethereal_possible": true, "attributes": {"all_skills": 2, "fcr": 50, "defense": [450, 550], "magic_damage_reduced": [5, 8], "experience_gained": 5} },
+  { "name": "The Gavel of Pain", "level_required": 45, "is_ethereal_possible": true, "attributes": {"enhanced_damage": [130, 160], "strength": 10, "attack_rating": 100, "iron_maiden_charges": 13} },
+  { "name": "Bloodrise", "level_required": 15, "is_ethereal_possible": true, "attributes": {"enhanced_damage": [120, 140], "ias": 10, "life_stolen_per_hit": 5, "attack_rating": 75, "damage_to_undead": 150} },
+  { "name": "The General's Tan Do Li Ga", "level_required": 22, "is_ethereal_possible": true, "attributes": {"enhanced_damage": [80, 100], "slow_targets_by": 50, "mana_stolen_per_hit": 7, "attacker_takes_damage": 5} },
+  { "name": "The Jade Tan Do", "level_required": 19, "is_ethereal_possible": true, "attributes": {"prevent_monster_heal": 1, "poison_resist": 50, "poison_length": 50, "dexterity": 15} }
+]

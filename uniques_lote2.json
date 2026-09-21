@@ -1,0 +1,22 @@
+[
+  { "name": "Arachnid Mesh", "level_required": 80, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "fcr": 20, "slow_targets_by": 10, "mana_based_on_level": 1.25, "defense_percent": [90, 120]} },
+  { "name": "Verdungo's Hearty Cord", "level_required": 63, "is_ethereal_possible": true, "attributes": {"fhr": 10, "damage_reduced_percent": [10, 15], "stamina": 100, "life": [30, 40], "replenish_life": [10, 13]} },
+  { "name": "String of Ears", "level_required": 29, "is_ethereal_possible": true, "attributes": {"life_stolen_per_hit": [6, 8], "damage_reduced_percent": [10, 15], "magic_damage_reduced": [10, 15], "defense": [150, 180]} },
+  { "name": "Thundergod's Vigor", "level_required": 47, "is_ethereal_possible": true, "attributes": {"lightning_absorb": 20, "max_lightning_resist": 10, "strength": 20, "vitality": 20, "lightning_damage": [1, 50]} },
+  { "name": "Nosferatu's Coil", "level_required": 51, "is_ethereal_possible": true, "attributes": {"ias": 10, "life_stolen_per_hit": [5, 7], "slow_targets_by": 10, "strength": 15, "mana_after_each_kill": 2} },
+  { "name": "Goldwrap", "level_required": 27, "is_ethereal_possible": true, "attributes": {"ias": 10, "extra_gold": [50, 80], "magic_find": 30, "defense": [40, 60]} },
+  { "name": "Snowclash", "level_required": 42, "is_ethereal_possible": true, "attributes": {"cold_skill_damage": [15, 15], "cold_absorb": 15, "max_cold_resist": 15, "defense": [130, 170], "blizzard": 2, "chilling_armor": 2} },
+  { "name": "Gloom's Trap", "level_required": 36, "is_ethereal_possible": true, "attributes": {"mana_stolen_per_hit": 5, "increased_max_mana": 15, "vitality": 15, "mana": 15, "regenerate_mana": 15} },
+  { "name": "Magefist", "level_required": 23, "is_ethereal_possible": true, "attributes": {"fcr": 20, "fire_skills": 1, "regenerate_mana": 25, "defense": [20, 30]} },
+  { "name": "Dracul's Grasp", "level_required": 76, "is_ethereal_possible": true, "attributes": {"life_tap_proc_chance": 5, "life_stolen_per_hit": [7, 10], "open_wounds": 25, "strength": [10, 15], "life_after_each_kill": 5} },
+  { "name": "Steelrend", "level_required": 70, "is_ethereal_possible": true, "attributes": {"strength": [15, 20], "enhanced_damage": [170, 210], "crushing_blow": 10} },
+  { "name": "Soul Drainer", "level_required": 74, "is_ethereal_possible": true, "attributes": {"life_stolen_per_hit": [4, 7], "mana_stolen_per_hit": [4, 7], "lower_resist_proc_chance": 8, "defense": [90, 120]} },
+  { "name": "Venom Grip", "level_required": 29, "is_ethereal_possible": true, "attributes": {"crushing_blow": 5, "poison_resist": 30, "poison_damage": [15, 30], "max_poison_resist": 5} },
+  { "name": "Lava Gout", "level_required": 42, "is_ethereal_possible": true, "attributes": {"enchant_proc_chance": 2, "ias": 20, "fire_resist": 24, "half_freeze_duration": 1} },
+  { "name": "Chance Guards", "level_required": 15, "is_ethereal_possible": true, "attributes": {"magic_find": [25, 40], "extra_gold": 200, "defense": [20, 30]} },
+  { "name": "Sandstorm Trek", "level_required": 64, "is_ethereal_possible": true, "attributes": {"frw": 20, "fhr": 20, "strength": [10, 15], "vitality": [10, 15], "poison_resist": [40, 70], "stamina": 50} },
+  { "name": "War Traveler", "level_required": 42, "is_ethereal_possible": true, "attributes": {"frw": 25, "damage_min": 15, "damage_max": 25, "vitality": 10, "strength": 10, "magic_find": [30, 50]} },
+  { "name": "Gore Rider", "level_required": 47, "is_ethereal_possible": true, "attributes": {"frw": 30, "open_wounds": 10, "crushing_blow": 15, "deadly_strike": 15, "defense": [140, 160]} },
+  { "name": "Marrowwalk", "level_required": 66, "is_ethereal_possible": true, "attributes": {"skeleton_mastery": [1, 2], "strength": [10, 20], "dexterity": 17, "regen_stamina": 10, "half_freeze_duration": 1} },
+  { "name": "Waterwalk", "level_required": 32, "is_ethereal_possible": true, "attributes": {"frw": 20, "life": [40, 65], "max_stamina": 40, "defense_vs_missiles": 100, "dexterity": 15} }
+]

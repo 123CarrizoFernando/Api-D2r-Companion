@@ -1,0 +1,14 @@
+[
+  { "name": "Enigma (Base Referencia)", "level_required": 65, "is_ethereal_possible": false, "attributes": {"all_skills": 2, "teleport": 1, "frw": 45, "strength_based_on_level": 0.75, "magic_find_based_on_level": 1, "damage_reduced": 8} },
+  { "name": "Skin of the Vipermagi", "level_required": 29, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "fcr": 30, "all_resistances": 30, "magic_damage_reduced": 9} },
+  { "name": "Fortitude", "level_required": 59, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 300, "defense": 200, "life_based_on_level": 1.5, "all_resistances": [25, 30], "chilling_armor_proc_chance": 20, "damage_to_mana": 12} },
+  { "name": "Tyrael's Might", "level_required": 84, "is_ethereal_possible": true, "attributes": {"all_skills": 2, "strength": [20, 30], "all_resistances": [20, 30], "cannot_be_frozen": 1, "damage_to_demons_percent": [50, 100], "slain_monsters_rest_in_peace": 1} },
+  { "name": "Shaftstop", "level_required": 38, "is_ethereal_possible": true, "attributes": {"damage_reduced_percent": 30, "life": 60, "defense_vs_missiles": 250} },
+  { "name": "Skullder's Ire", "level_required": 42, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "magic_find_based_on_level": 1.25, "magic_damage_reduced": 10, "replenish_life": 5} },
+  { "name": "Duriel's Shell", "level_required": 41, "is_ethereal_possible": true, "attributes": {"cannot_be_frozen": 1, "defense_based_on_level": 1.25, "life_based_on_level": 1.0, "fire_resist": 20, "lightning_resist": 20, "cold_resist": 30, "poison_resist": 20, "strength": 15} },
+  { "name": "Guardian Angel", "level_required": 45, "is_ethereal_possible": true, "attributes": {"max_light_resist": 15, "max_fire_resist": 15, "max_cold_resist": 15, "max_poison_resist": 15, "paladin_skills": 1, "attack_rating_against_demons_based_on_level": 2.5, "faster_block_rate": 30, "increased_chance_of_blocking": 20} },
+  { "name": "Ormus' Robes", "level_required": 75, "is_ethereal_possible": true, "attributes": {"fcr": 20, "mana": 20, "elemental_skill_damage": 15, "sorceress_skill_random": 3} },
+  { "name": "Crow_caw", "level_required": 37, "is_ethereal_possible": true, "attributes": {"fhr": 30, "ias": 15, "open_wounds": 15, "defense": [150, 200], "dexterity": 15} },
+  { "name": "Que-Hegan's Wisdom", "level_required": 51, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "fcr": 20, "fhr": 20, "mana": 15, "mana_after_each_kill": 3, "damage_reduced": 3} },
+  { "name": "Toothrow", "level_required": 40, "is_ethereal_possible": true, "attributes": {"enhanced_defense": [160, 220], "defense": 40, "attack_rating": 40, "open_wounds": 40, "strength": 10} }
+]

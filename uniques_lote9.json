@@ -1,0 +1,22 @@
+[
+  { "name": "Heaven's Light", "level_required": 61, "is_ethereal_possible": true, "attributes": {"paladin_skills": 3, "enhanced_damage": 300, "ias": 20, "crushing_blow": 33, "socket": 2} },
+  { "name": "The Redeemer", "level_required": 72, "is_ethereal_possible": true, "attributes": {"paladin_combat_skills": 3, "enhanced_damage": 300, "damage_to_undead": 350, "damage_reduced": 15, "redemption_aura": 2} },
+  { "name": "Astreon's Iron Ward", "level_required": 85, "is_ethereal_possible": true, "attributes": {"paladin_combat_skills": 4, "enhanced_damage": 280, "ias": 33, "slow_targets_by": 25, "damage_to_undead": 240} },
+  { "name": "Cinquedeas", "level_required": 45, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 180, "ias": 30, "poison_damage": [100, 200], "dexterity": 15} },
+  { "name": "Fleshrender", "level_required": 38, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 150, "druid_skills": 1, "open_wounds": 20, "crushing_blow": 20} },
+  { "name": "Nord's Tenderizer", "level_required": 68, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 300, "ias": 30, "cold_damage": 300, "cold_absorb": 15, "freeze_target": 2} },
+  { "name": "Demon Limb", "level_required": 63, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "life_stolen_per_hit": 10, "fire_damage": 250, "fire_resist": 15, "enchant_charges": 20} },
+  { "name": "Baranar's Star", "level_required": 65, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "ias": 50, "attack_rating": 200, "fire_damage": 200, "lightning_damage": 200, "cold_damage": 200} },
+  { "name": "Horizon's Tornado", "level_required": 64, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 250, "ias": 50, "tornado_charges": 15, "slow_targets_by": 20} },
+  { "name": "Stormlash", "level_required": 82, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 280, "ias": 30, "crushing_blow": 33, "tornado_proc_chance": 20, "static_field_proc_chance": 10, "lightning_absorb": 9} },
+  { "name": "Stone Crusher", "level_required": 68, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 300, "damage_to_demons": 200, "crushing_blow": 40, "strength": 20} },
+  { "name": "Schaefer's Hammer", "level_required": 79, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 130, "lightning_damage_based_on_level": 2.5, "attack_rating_based_on_level": 9.375, "lightning_absorb": 50, "static_field_proc_chance": 20} },
+  { "name": "The Cranium Basher", "level_required": 87, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 240, "crushing_blow": 75, "strength": 25, "all_resistances": 25, "hit_blinding_target": 3} },
+  { "name": "Nightwing's Veil", "level_required": 67, "is_ethereal_possible": true, "attributes": {"all_skills": 2, "cold_skill_damage": 15, "dexterity": 20, "cold_absorb": 9, "half_freeze_duration": 1} },
+  { "name": "Veil of Steel", "level_required": 73, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 60, "all_resistances": 50, "vitality": 15, "strength": 15, "light_radius": 4} },
+  { "name": "Steel Shade", "level_required": 62, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 130, "replenish_life": 18, "fire_absorb": 11, "mana": 50} },
+  { "name": "Blackhorn's Face", "level_required": 41, "is_ethereal_possible": true, "attributes": {"enhanced_defense": 200, "lightning_absorb": 20, "max_lightning_resist": 15, "slow_targets_by": 20, "attacker_takes_damage": 25} },
+  { "name": "Crowcaw", "level_required": 37, "is_ethereal_possible": true, "attributes": {"fhr": 30, "ias": 15, "open_wounds": 15, "defense": 180, "dexterity": 15} },
+  { "name": "Que-Hegan's Wisdom", "level_required": 51, "is_ethereal_possible": true, "attributes": {"all_skills": 1, "fcr": 20, "fhr": 20, "mana": 15, "mana_after_each_kill": 3, "damage_reduced": 3} },
+  { "name": "Black Hades", "level_required": 53, "is_ethereal_possible": true, "attributes": {"enhanced_damage": 200, "damage_to_demons": 250, "attack_rating_against_demons": 300, "socket": 3} }
+]

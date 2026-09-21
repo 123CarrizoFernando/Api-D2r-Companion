@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Tal Rasha's Wrappings",
+    "partial_bonuses": {"2_pieces": "Replenish Life +10", "3_pieces": "65% Better Chance of Getting Magic Items", "4_pieces": "25% Faster Hit Recovery"},
+    "full_bonuses": {"all_skills": 3, "life": 150, "all_resistances": 50, "magic_find": 65},
+    "pieces": [
+      {
+        "name": "Tal Rasha's Adjudication",
+        "base_type": "Amulet",
+        "level_required": 67,
+        "attributes": {"sorceress_skills": 2, "lightning_resist": 33, "life": 50}
+      },
+      {
+        "name": "Tal Rasha's Guardianship",
+        "base_type": "Lacquered Plate",
+        "level_required": 71,
+        "attributes": {"cold_resist": 40, "lightning_resist": 40, "fire_resist": 40, "magic_damage_reduced": 15, "magic_find": 88}
+      },
+      {
+        "name": "Tal Rasha's Fine-Spun Cloth",
+        "base_type": "Mesh Belt",
+        "level_required": 53,
+        "attributes": {"dexterity": 20, "mana": 30, "magic_find": [10, 15], "damage_taken_to_mana": 37}
+      }
+    ]
+  },
+  {
+    "name": "Sigon's Complete Steel",
+    "partial_bonuses": {"2_pieces": "10% Life Stolen Per Hit", "3_pieces": "+100 Defense"},
+    "full_bonuses": {"damage_reduced": 7, "fire_resist": 24, "attacker_takes_damage": 12},
+    "pieces": [
+      {
+        "name": "Sigon's Visor",
+        "base_type": "Great Helm",
+        "level_required": 6,
+        "attributes": {"defense": 25, "mana": 30}
+      },
+      {
+        "name": "Sigon's Shelter",
+        "base_type": "Gothic Plate",
+        "level_required": 6,
+        "attributes": {"defense": 25, "lightning_resist": 30}
+      }
+    ]
+  }
+]
