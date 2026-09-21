@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Monarch",
+    "category": "Shield",
+    "max_sockets": 4,
+    "strength_required": 156,
+    "dexterity_required": 0,
+    "is_elite": true
+  },
+  {
+    "name": "Phase Blade",
+    "category": "Sword",
+    "max_sockets": 6,
+    "strength_required": 25,
+    "dexterity_required": 136,
+    "is_elite": true
+  }
+]
