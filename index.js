@@ -80,6 +80,39 @@ app.get('/api/items/uniques', async (req, res) => {
   }
 });
 
+// Endpoint: GET /api/builds
+app.get('/api/builds', async (req, res) => {
+  try {
+    const query = `
+      SELECT 
+        b.id, 
+        b.character_class, 
+        b.name, 
+        b.tier, 
+        b.budget_level, 
+        b.description,
+        json_agg(
+          json_build_object(
+            'slot', be.slot,
+            'is_alternative', be.is_alternative,
+            'unique_item_name', ui.name,
+            'runeword_name', rw.name
+          )
+        ) FILTER (WHERE be.slot IS NOT NULL) as equipment
+      FROM builds b
+      LEFT JOIN build_equipment be ON b.id = be.build_id
+      LEFT JOIN unique_items ui ON be.unique_item_id = ui.id
+      LEFT JOIN runewords rw ON be.runeword_id = rw.id
+      GROUP BY b.id
+      ORDER BY b.character_class, b.name;
+    `;
+    const result = await pool.query(query);
+    res.json(result.rows);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).json({ error: 'Error interno al consultar las builds.' });
+  }
+});
 
 // Levantar el servidor
 app.listen(port, () => {
