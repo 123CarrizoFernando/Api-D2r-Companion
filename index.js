@@ -73,9 +73,19 @@ app.get('/api/builds', async (req, res) => {
         b.id, b.character_class, b.name, b.tier, b.budget_level, b.description,
         (
           SELECT json_agg(
-            json_build_object('slot', be.slot, 'is_alternative', be.is_alternative, 'unique_item_name', be.unique_item_name, 'runeword_name', be.runeword_name)
+            json_build_object(
+              'slot', be.slot, 
+              'is_alternative', be.is_alternative, 
+              'unique_item_name', be.unique_item_name, 
+              'runeword_name', be.runeword_name,
+              'unique_attributes', ui.attributes,
+              'runeword_attributes', rw.attributes
+            )
           )
-          FROM build_equipment be WHERE be.build_id = b.id
+          FROM build_equipment be 
+          LEFT JOIN unique_items ui ON be.unique_item_name = ui.name
+          LEFT JOIN runewords rw ON be.runeword_name = rw.name
+          WHERE be.build_id = b.id
         ) as equipment,
         (
           SELECT json_build_object(
@@ -95,7 +105,7 @@ app.get('/api/builds', async (req, res) => {
       FROM builds b
       ORDER BY b.character_class, b.name;
     `;
-    
+
     const result = await pool.query(query);
     res.json(result.rows);
   } catch (err) {
