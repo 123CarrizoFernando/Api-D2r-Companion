@@ -92,13 +92,18 @@ app.get('/api/builds', async (req, res) => {
             'act', m.act,
             'aura', m.aura_or_skill,
             'type', m.type,
-            'weapon', bm.weapon_runeword_name,
-            'helm', bm.helm_unique_name,
-            'armor', bm.armor_runeword_name,
-            'justification', bm.justification
+            'justification', bm.justification,
+            'gear', json_build_array(
+               json_build_object('slot', 'Weapon', 'is_alternative', false, 'runeword_name', bm.weapon_runeword_name, 'unique_item_name', null, 'runeword_attributes', rw_w.attributes, 'unique_attributes', null),
+               json_build_object('slot', 'Helm', 'is_alternative', false, 'unique_item_name', bm.helm_unique_name, 'runeword_name', null, 'unique_attributes', ui_h.attributes, 'runeword_attributes', null),
+               json_build_object('slot', 'Armor', 'is_alternative', false, 'runeword_name', bm.armor_runeword_name, 'unique_item_name', null, 'runeword_attributes', rw_a.attributes, 'unique_attributes', null)
+            )
           )
           FROM build_mercenaries bm
           JOIN mercenaries m ON bm.mercenary_id = m.id
+          LEFT JOIN runewords rw_w ON bm.weapon_runeword_name = rw_w.name
+          LEFT JOIN unique_items ui_h ON bm.helm_unique_name = ui_h.name
+          LEFT JOIN runewords rw_a ON bm.armor_runeword_name = rw_a.name
           WHERE bm.build_id = b.id
           LIMIT 1
         ) as mercenary
