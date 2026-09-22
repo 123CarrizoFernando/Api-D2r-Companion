@@ -73,24 +73,10 @@ app.get('/api/builds', async (req, res) => {
         b.id, b.character_class, b.name, b.tier, b.budget_level, b.description,
         (
           SELECT json_agg(
-            json_build_object('slot', be.slot, 'is_alternative', be.is_alternative, 'unique_item_name', ui.name, 'runeword_name', rw.name)
+            json_build_object('slot', be.slot, 'is_alternative', be.is_alternative, 'unique_item_name', be.unique_item_name, 'runeword_name', be.runeword_name)
           )
-          FROM build_equipment be
-          LEFT JOIN unique_items ui ON be.unique_item_id = ui.id
-          LEFT JOIN runewords rw ON be.runeword_id = rw.id
-          WHERE be.build_id = b.id
-        ) as equipment,
-        (
-          SELECT json_agg(
-            json_build_object('setup_name', bm.setup_name, 'mercenary_type', m.act || ' - ' || m.aura_or_skill, 'weapon', rw_wpn.name, 'helm', ui_hlm.name, 'armor', rw_arm.name, 'justification', bm.justification)
-          )
-          FROM build_mercenaries bm
-          JOIN mercenaries m ON bm.mercenary_id = m.id
-          LEFT JOIN runewords rw_wpn ON bm.weapon_runeword_id = rw_wpn.id
-          LEFT JOIN unique_items ui_hlm ON bm.helm_unique_id = ui_hlm.id
-          LEFT JOIN runewords rw_arm ON bm.armor_runeword_id = rw_arm.id
-          WHERE bm.build_id = b.id
-        ) as mercenaries
+          FROM build_equipment be WHERE be.build_id = b.id
+        ) as equipment
       FROM builds b
       ORDER BY b.character_class, b.name;
     `;

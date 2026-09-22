@@ -1,0 +1,37 @@
+[
+  {
+    "character_class": "Sorceress",
+    "name": "Blizzard Sorceress",
+    "tier": "S",
+    "budget_level": "Medium",
+    "description": "La reina del Magic Find. Utiliza Blizzard para un daño de área masivo. Mantén tu distancia, usa Teleport para posicionar a tu mercenario y lanza Glacial Spike para congelar a los enemigos que se acerquen demasiado.",
+    "equipment": [
+      {"slot": "Weapon", "unique_item_name": "Death's Fathom", "runeword_name": null, "is_alternative": false},
+      {"slot": "Weapon", "unique_item_name": "The Oculus", "runeword_name": null, "is_alternative": true},
+      {"slot": "Shield", "unique_item_name": null, "runeword_name": "Spirit", "is_alternative": false},
+      {"slot": "Helm", "unique_item_name": "Harlequin Crest", "runeword_name": null, "is_alternative": false},
+      {"slot": "Armor", "unique_item_name": null, "runeword_name": "Enigma", "is_alternative": false},
+      {"slot": "Armor", "unique_item_name": "Skin of the Vipermagi", "runeword_name": null, "is_alternative": true},
+      {"slot": "Gloves", "unique_item_name": "Magefist", "runeword_name": null, "is_alternative": false},
+      {"slot": "Belt", "unique_item_name": "Arachnid Mesh", "runeword_name": null, "is_alternative": false},
+      {"slot": "Boots", "unique_item_name": "War Traveler", "runeword_name": null, "is_alternative": false}
+    ]
+  },
+  {
+    "character_class": "Paladin",
+    "name": "Blessed Hammer (Hammerdin)",
+    "tier": "S",
+    "budget_level": "High",
+    "description": "Una de las builds más poderosas y versátiles del juego. Lanza martillos benditos en espiral mientras mantienes activa el aura de Concentración. Prácticamente ningún monstruo es inmune al daño mágico en todo el juego.",
+    "equipment": [
+      {"slot": "Weapon", "unique_item_name": null, "runeword_name": "Heart of the Oak", "is_alternative": false},
+      {"slot": "Shield", "unique_item_name": "Herald of Zakarum", "runeword_name": null, "is_alternative": true},
+      {"slot": "Shield", "unique_item_name": null, "runeword_name": "Spirit", "is_alternative": false},
+      {"slot": "Helm", "unique_item_name": "Harlequin Crest", "runeword_name": null, "is_alternative": false},
+      {"slot": "Armor", "unique_item_name": null, "runeword_name": "Enigma", "is_alternative": false},
+      {"slot": "Gloves", "unique_item_name": "Magefist", "runeword_name": null, "is_alternative": false},
+      {"slot": "Belt", "unique_item_name": "Arachnid Mesh", "runeword_name": null, "is_alternative": false},
+      {"slot": "Boots", "unique_item_name": "Waterwalk", "runeword_name": null, "is_alternative": false}
+    ]
+  }
+]
