@@ -76,10 +76,26 @@ app.get('/api/builds', async (req, res) => {
             json_build_object('slot', be.slot, 'is_alternative', be.is_alternative, 'unique_item_name', be.unique_item_name, 'runeword_name', be.runeword_name)
           )
           FROM build_equipment be WHERE be.build_id = b.id
-        ) as equipment
+        ) as equipment,
+        (
+          SELECT json_build_object(
+            'act', m.act,
+            'aura', m.aura_or_skill,
+            'type', m.type,
+            'weapon', bm.weapon_runeword_name,
+            'helm', bm.helm_unique_name,
+            'armor', bm.armor_runeword_name,
+            'justification', bm.justification
+          )
+          FROM build_mercenaries bm
+          JOIN mercenaries m ON bm.mercenary_id = m.id
+          WHERE bm.build_id = b.id
+          LIMIT 1
+        ) as mercenary
       FROM builds b
       ORDER BY b.character_class, b.name;
     `;
+    
     const result = await pool.query(query);
     res.json(result.rows);
   } catch (err) {
