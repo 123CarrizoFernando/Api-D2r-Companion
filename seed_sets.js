@@ -1,9 +1,8 @@
 const pool = require('./db');
 
 async function seedSets() {
-  console.log('Iniciando carga detallada de Sets...');
+  console.log('Iniciando carga detallada de Sets V2...');
   try {
-    // 1. Borrar tabla vieja y crear la nueva con soporte JSON avanzado
     await pool.query(`DROP TABLE IF EXISTS sets`);
     await pool.query(`
       CREATE TABLE sets (
@@ -16,122 +15,63 @@ async function seedSets() {
       )
     `);
 
-    // 2. Datos de los Sets (Aquí agregas todos los detalles minuciosos)
     const setsData = [
       {
-        name: "Tal Rasha's Wrappings",
-        class_restriction: "Sorceress",
+        name: "Aldur's Watchtower",
+        class_restriction: "Druid",
         partial_bonuses: [
-          "Replenish Life +10 (2 Items)",
-          "65% Better Chance Of Getting Magic Items (3 Items)",
-          "25% Faster Hit Recovery (4 Items)"
+          "+150% de Daño a los Demonios (2 Piezas)",
+          "50% de Posibilidad de Encontrar Objetos Mágicos (3 Piezas)"
         ],
         full_bonuses: [
-          "+3 To Sorceress Skill Levels",
-          "Replenish Life +10",
-          "65% Better Chance Of Getting Magic Items",
-          "25% Faster Hit Recovery",
-          "+150 To Life",
-          "All Resistances +50",
-          "+50 Defense Vs. Missile",
-          "+150 Defense"
+          "+3 a las Habilidades del Druida",
+          "+350% de Daño Mejorado",
+          "+150 de Daño de Frío",
+          "+110 de Maná",
+          "Todas las Resistencias +50",
+          "+150 de Defensa",
+          "10% de Maná Robado por Impacto"
         ],
         pieces: [
           {
-            name: "Tal Rasha's Lidless Eye",
-            base_type: "Swirling Crystal",
-            damage: "18 to 42",
-            durability: 50,
-            req_lvl: 65,
-            is_ethereal: false,
-            stats: [
-              "20% Faster Cast Rate",
-              "+77 To Mana",
-              "+57 To Life",
-              "+10 To Energy",
-              "+1-2 To Lightning Mastery (Sorceress Only)",
-              "+1-2 To Fire Mastery (Sorceress Only)",
-              "+1-2 To Cold Mastery (Sorceress Only)"
-            ]
-          },
-          {
-            name: "Tal Rasha's Guardianship",
-            base_type: "Lacquered Plate",
-            defense: "833 to 941",
-            durability: 55,
-            req_str: 84,
-            req_lvl: 71,
-            is_ethereal: false,
-            stats: [
-              "+400 Defense",
-              "Requirements -60%",
-              "Magic Damage Reduced By 15",
-              "Cold Resist +40%",
-              "Lightning Resist +40%",
-              "Fire Resist +40%",
-              "88% Better Chance Of Getting Magic Items"
-            ]
-          },
-          {
-            name: "Tal Rasha's Adjudication",
-            base_type: "Amulet",
-            req_lvl: 67,
-            stats: [
-              "+2 To Sorceress Skill Levels",
-              "Lightning Resist +33%",
-              "+42 To Mana",
-              "+50 To Life"
-            ]
-          }
-        ]
-      },
-      {
-        name: "Immortal King",
-        class_restriction: "Barbarian",
-        partial_bonuses: [
-          "+50 To Attack Rating (2 Items)",
-          "+75 To Attack Rating (3 Items)",
-          "+125 To Attack Rating (4 Items)",
-          "+200 To Attack Rating (5 Items)"
-        ],
-        full_bonuses: [
-          "+3 To Barbarian Skill Levels",
-          "+450 To Attack Rating",
-          "+150 To Life",
-          "All Resistances +50",
-          "Magic Damage Reduced By 10"
-        ],
-        pieces: [
-          {
-            name: "Immortal King's Stone Crusher",
-            base_type: "Ogre Maul",
-            damage: "231 to 318",
-            durability: 60,
-            req_str: 225,
-            req_lvl: 76,
-            is_ethereal: false,
-            stats: [
-              "+200% Enhanced Damage",
-              "+200% Damage To Demons",
-              "+250% Damage To Undead",
-              "40% Increased Attack Speed",
-              "Indestructible",
-              "35-40% Chance Of Crushing Blow",
-              "Sockets (2)"
-            ]
+            image_name: "aldurs_stony_gaze",
+            name_es: "Mirada De Piedra De Aldur",
+            name_en: "Aldur's Stony Gaze",
+            base_name: "El Disfraz Cazador",
+            tier: "Excepcional",
+            tc: "48",
+            type: "Yelmos",
+            defense: "157-171 (varia)",
+            durability: "20",
+            req_str: "56",
+            req_lvl: "36",
+            class_only: "Solo druida",
+            stats_blue: [
+              "Recuperación de Golpe un +25% Más Rápida",
+              "+90 de Defensa",
+              "17% de Regeneración de Maná",
+              "+40-50% de Resistencia al Frío (varia)",
+              "+5 de Radio de Visión",
+              "Engarces (2)"
+            ],
+            stats_green: [
+              "+15 de Energía (2 Piezas)",
+              "+30 de Energía (3 Piezas)",
+              "+45 de Energía (Set Completo)"
+            ],
+            version: "Versión 1.09 y posteriores"
           }
         ]
       }
     ];
 
-    // 3. Insertar en la base de datos
     for (const set of setsData) {
       await pool.query(
         `INSERT INTO sets (name, class_restriction, partial_bonuses, full_bonuses, pieces) VALUES ($1, $2, $3, $4, $5)`,
         [set.name, set.class_restriction, JSON.stringify(set.partial_bonuses), JSON.stringify(set.full_bonuses), JSON.stringify(set.pieces)]
       );
     }
-    console.log('✅ Sets detallados cargados exitosamente.');
+    console.log('✅ Base de datos actualizada con formato fiel al juego.');
   } catch (error) {
     console.error('❌ Error:', error.message);
   } finally {
