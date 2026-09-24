@@ -130,21 +130,11 @@ app.get('/api/bases', async (req, res) => {
   }
 });
 
-// 6. SETS
+// 6. SETS (CORREGIDO)
 app.get('/api/sets', async (req, res) => {
   try {
-    const query = `
-      SELECT 
-        s.id, s.name, s.partial_bonuses, s.full_bonuses,
-        json_agg(
-          json_build_object('name', sp.name, 'base', sp.base_type, 'stats', sp.attributes)
-        ) as pieces
-      FROM item_sets s
-      JOIN set_pieces sp ON s.id = sp.set_id
-      GROUP BY s.id
-      ORDER BY s.name;
-    `;
-    const result = await pool.query(query);
+    // Consulta directa a la nueva tabla 'sets' que tiene la estructura JSONB completa
+    const result = await pool.query('SELECT * FROM sets ORDER BY name ASC');
     res.json(result.rows);
   } catch (err) {
     console.error(err.message);
